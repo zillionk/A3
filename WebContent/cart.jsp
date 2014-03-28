@@ -9,20 +9,11 @@
 <body>
 <section data-role="page">
 	<header data-role="header">
-		<h1>cart</h1>
+		<h1>Cart</h1>
 
 	</header><!-- /header -->
 	<article data-role="content">
 
-	</article><!-- /content -->
-	<footer data-role="footer">
-		<h4>Page footer</h4>
-	</footer><!-- /footer -->
-</section><!-- /page -->
-
-
-
- 	<h1>Cart</h1>
  	<table border=1>
  		<tr valign="bottom">
  				<td align="center"><b>Quantity</b></td>
@@ -72,6 +63,18 @@
 %>
 
  	</table>
- 	<a href="index.jsp">Go Back</a>
+
+
+
+	</article><!-- /content -->
+	<footer data-role="footer" data-position="fixed">
+ 	<a href="index.jsp" data-role="button" data-icon="arrow-l">Go Back</a>
+ 	<a href="index.jsp" data-role="button" data-icon="arrow-r">CheckOut</a>
+	</footer><!-- /footer -->
+</section><!-- /page -->
+
+
+
+
 </body>
 </html>

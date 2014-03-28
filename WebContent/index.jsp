@@ -15,13 +15,6 @@
 <section data-role="page" id= "shoppingListPage">
 	<header data-role="header">
 		<h1>Shopping Cart</h1>
-		<nav data-role="navbar">
-			<ul>
-				 <li><a href="#shoppingListPage">Book List</a></li>
-				 <li><a href="#cartPage">Cart</a></li>
-
-			</ul>
-		</nav>
 	</header><!-- /header -->
 	<article data-role="content">
 		<!-- <div data-role="popup" id="purchase" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
