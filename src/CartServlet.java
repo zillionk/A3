@@ -30,7 +30,6 @@ public class CartServlet extends HttpServlet {
 			if (theCart==null) {
 				theCart = new Cart();
 				session.setAttribute("cart", theCart);
-				System.out.println("a new Mimi!");
 			} 
 					
 			int quantity = 1;	

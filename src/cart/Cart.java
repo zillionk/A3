@@ -1,6 +1,7 @@
 package cart;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Cart {
 	ArrayList<LineItem> items;
@@ -36,5 +37,10 @@ public class Cart {
 				return;
 			}
 		}
+	}
+	public int getOrderNumber(){
+		Random rnd = new Random();
+		int n = 100000 + rnd.nextInt(900000);
+		return n;
 	}
 }
